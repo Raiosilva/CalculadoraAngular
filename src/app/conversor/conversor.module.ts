@@ -6,6 +6,7 @@ import { CommonModule } from '@angular/common';
 import { MoedaService, ConversorService } from './services';
 
 import { ConversorComponent } from './components';
+import { NumeroDirective } from './directives';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { ConversorComponent } from './components';
     FormsModule
   ],
   declarations: [
-    ConversorComponent
+    ConversorComponent,
+    NumeroDirective
   ],
   exports: [
     ConversorComponent
